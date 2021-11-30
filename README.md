@@ -11,16 +11,16 @@
 
 apikey获取：
 
--前往 http://if.caiyunai.com/dream 注册彩云小梦用户；
--注册完成后，在 chrome 浏览器地址栏输入 javascript:alert(localStorage.cy_dream_user)，（前缀javascript需单独复制），
--弹出窗口中的uid即为apikey
+- 前往 http://if.caiyunai.com/dream 注册彩云小梦用户；
+- 注册完成后，在 chrome 浏览器地址栏输入 javascript:alert(localStorage.cy_dream_user)，（前缀javascript需单独复制），
+- 弹出窗口中的uid即为apikey
 
 或者：
 
--前往 http://if.caiyunai.com/dream 注册彩云小梦用户；
--注册完成后，F12打开开发者工具
--进行一次续写
--在Network中查看novel_ai请求，Request Payload中uid项即为apikey
+- 前往 http://if.caiyunai.com/dream 注册彩云小梦用户；
+- 注册完成后，F12打开开发者工具
+- 进行一次续写
+- 在Network中查看novel_ai请求，Request Payload中uid项即为apikey
 
 
 ## 用法
