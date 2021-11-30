@@ -3,7 +3,7 @@
 
 参考[KaguyaBot](https://github.com/liwh011/Kaguya-QQBot) 与[Novel_AI](https://github.com/pcrbot/Novel_AI)，移植到hoshino并适配新版彩云小梦api的小说AI续写插件。
 
-增加了一些分群自定义项目，主要是apikey分群设置，避免了一群作死key被封导致所有群无法使用的情况。
+增加了一些分群自定义项目，主要是apikey分群设置，避免了一群作死导致key被ban害的所有群都无法使用的情况。
 
 ## 配置
 
