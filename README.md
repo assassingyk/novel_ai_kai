@@ -7,7 +7,7 @@
 
 ## 配置
 
-目前默认apikey为空，即所有群在未单独设置apikey前都不能使用续写功能。如果想默认使用一通用apikey可修改 novel.py 中templete的token项。
+目前默认apikey为空，即所有群在未单独设置apikey前都不能使用续写功能。如果想默认使用通用apikey可修改 novel.py 中templete的token项。
 
 apikey获取：
 
