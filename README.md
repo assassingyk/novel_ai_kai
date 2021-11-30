@@ -1,0 +1,2 @@
+# novel_ai_kai
+适用hoshino的基于彩云小梦的小说AI续写插件
