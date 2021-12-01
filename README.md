@@ -32,5 +32,6 @@ apikey获取：
 
 ## 示例
 
-![image](https://user-images.githubusercontent.com/55473115/144167346-da552952-2751-414d-b1bb-4fb326c89b13.png)
+![image](https://user-images.githubusercontent.com/55473115/144168179-4892908c-ac69-4db3-8521-a40d099230c6.png)
+
 
