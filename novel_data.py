@@ -32,7 +32,7 @@ HEADER = {
 
 async def get_nid(text: str, token) -> str:
     """获得文章id"""
-    url = f'http://if.caiyunai.com/v2/novel/{token}/novel_save'
+    url = f'https://if.caiyunai.com/v2/novel/{token}/novel_save'
     data = {"content": text, "title": "", "ostype": ""}
     response = await aiorequests.post(url, json=data, headers=HEADER)
     if response.status_code == 200:
@@ -52,7 +52,7 @@ async def get_nid(text: str, token) -> str:
 
 async def submit_to_ai(text: str, token, novel_id: str, branchid, firstnode, title="", model_id: str = '601f92f60c9aaf5f28a6f908'):
     """将文本提交到指定模型的AI，得到xid"""
-    url = f'http://if.caiyunai.com/v2/novel/{token}/novel_ai'
+    url = f'https://if.caiyunai.com/v2/novel/{token}/novel_ai'
     data = {
         "nid": novel_id,
         "content": text,
@@ -84,7 +84,7 @@ async def submit_to_ai(text: str, token, novel_id: str, branchid, firstnode, tit
 
 # async def poll_for_result(nid: str, xid: str, token):
 #     """不断查询，直到服务器返回生成结果"""
-#     url = 'http://if.caiyunai.com/v2/novel/{token}/novel_dream_loop'
+#     url = 'https://if.caiyunai.com/v2/novel/{token}/novel_dream_loop'
 #     data = {
 #         "nid": nid,
 #         "xid": xid,
@@ -138,7 +138,7 @@ async def submit_to_ai(text: str, token, novel_id: str, branchid, firstnode, tit
 
 async def add_node(nid, node, nodeids, token):
     """获得文章id"""
-    url=f'http://if.caiyunai.com/v2/novel/{token}/add_node'
+    url=f'https://if.caiyunai.com/v2/novel/{token}/add_node'
     data = {
                 "nodeids": nodeids,
                 "choose": node["_id"],
