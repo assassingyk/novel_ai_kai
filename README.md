@@ -1,18 +1,6 @@
 # novel_ai_kai
 适用hoshino的基于彩云小梦的小说AI续写插件
 
-
-=====
-
-彩云小梦api改版，此插件目前已失效。暂时没空修，等一个大佬pr.jpg
-
-~~要不跑路吧.jpg~~
-
-=====
-
-
-
-
 参考[KaguyaBot](https://github.com/liwh011/Kaguya-QQBot) 与[Novel_AI](https://github.com/pcrbot/Novel_AI)，移植到hoshino并适配新版彩云小梦api的小说AI续写插件。
 
 因为彩云小梦恢复开放注册了就把之前缝了一半的东西搞完了。主要是增加了一些分群自定义项目，尤其是apikey分群设置，避免了一群作死导致key被ban害的所有群都无法使用的情况。
